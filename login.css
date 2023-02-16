@@ -1,0 +1,78 @@
+body
+{   width: 100%;
+    height: 100%;
+    background: url(https://images.pexels.com/photos/754262/pexels-photo-754262.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+form
+{
+    height: 355px;
+    width: 355px;
+    padding: 25px;
+    margin: auto;
+    margin-top: 90px;
+    background: rgba(243, 240, 240, 0.4);
+    border-radius: 10px;
+    line-height: 29px;
+}
+h1
+{
+    text-align: center;
+    padding-bottom: 10px;
+}
+input
+{
+    height: 35px;
+    width: 175px;
+    padding-left: 25px;
+    border-radius: 12px;
+    border: none;
+}
+#ps
+{
+    margin-left: 13px;
+}
+#fpass
+{
+    text-decoration: none;
+    margin-left: 186px;
+    color: darkturquoise;
+}
+#fpass:hover
+{
+    text-decoration: none;
+    margin-left: 186px;
+    color: rgb(53, 47, 47) ;
+}
+#btn
+{
+    height: 45px;
+    width: 85px;
+    border: 0.5px black;
+    margin-left: 100px;
+}
+#btn:hover
+{
+    background-color: lightblue;
+    height: 45px;
+    width: 85px;
+    border: 0.5px black;
+    border-radius: 20px;
+    margin-left: 100px;
+}
+#dacc
+{
+    text-decoration: none;
+    color: darkturquoise;
+}
+#dacc:hover
+{
+    text-decoration: none;
+    color: rgb(53, 47, 47) ;;
+}
+span
+{
+    color: red;
+}
