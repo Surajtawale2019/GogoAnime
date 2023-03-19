@@ -29,6 +29,11 @@ input
     border-radius: 8px;
     margin-bottom: 15px;
 }
+
+input::placeholder
+{
+    padding-left: 20px;
+}
 #fname,#lname,#uname
 {
     margin-left: 47px;
