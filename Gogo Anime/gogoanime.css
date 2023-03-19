@@ -239,5 +239,20 @@ a
 }
 .containt1 div
 {
-    
+    /* background-color: ; */
+    height: 50px;
+    margin-top: 10px;
+    color: #ffc119;
+}
+.containt1 ul li
+{
+    width: 100%;
+    list-style: none;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.c1
+{
+    line-height: 7px;
+
 }
