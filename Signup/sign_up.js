@@ -7,7 +7,7 @@ function a()
     var regl_n=/^[a-zA-z]{2,10}$/;
 
     var usname=document.getElementById("uname").value;
-    var regu_n=/^[a-zA-Z@0-9]{5,20}$/;
+    var regu_n=/^[a-zA-z0-9!@#$%&*]{5,25}$/;
 
     var cr_pass=document.getElementById("create_pass").value;
     var regcre_p=/^[a-zA-z0-9!@#$%&*]{5,15}$/;
@@ -58,11 +58,11 @@ function a()
     {
         document.getElementById("u_name").innerHTML="";
     }
-    else
-    {
-        document.getElementById("u_name").innerHTML="Invalid Username";
-        return false;
-    }
+    // else
+    // {
+    //     document.getElementById("u_name").innerHTML="Invalid Username";
+    //     return false;
+    // }
 
     //Create Password
 
